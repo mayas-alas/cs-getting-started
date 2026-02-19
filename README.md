@@ -47,21 +47,7 @@ Now that you have the repository forked, you can create a Codespace:
 Once your Codespace is ready, you'll need to run the provided setup script to configure Tailscale:
 
 1. Open the terminal in your Codespace.
-2. Grant execute permissions to the setup script:
-
-    ```bash
-    chmod +x ./show_tailscale_link.sh
-    ```
-
-3. Run the script using:
-
-    ```bash
-    ./show_tailscale_link.sh
-    ```
-
-4. The script will output a link. Follow the link to log in to your Tailscale account and register your machine.
-
-![Show Tailscale link](./images/shell.png)
+2. The script will output a link. Follow the link to log in to your Tailscale account and register your machine.
 
 ## Step 4: Configuring Tailscale as an Exit Node
 
