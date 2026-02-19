@@ -8,5 +8,5 @@
       "version": "latest"
     }
   },
-  "postCreateCommand": "sudo tailscale up --advertise-exit-node"
+  "postCreateCommand": "sudo tailscale up --advertise-exit-node --ssh --hostname=cs-tailnet"
 }
